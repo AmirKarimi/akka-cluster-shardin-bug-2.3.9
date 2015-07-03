@@ -9,7 +9,7 @@ After spending a day :(( I figured out that the problem just exists in akka-cont
 
 * $ git clone git@github.com:AmirKarimi/akka-cluster-shardin-bug-2.3.9.git
 * $ activator run
-* The program works correctly and exists normally. You should find the following texts in output: 
+* The program works correctly and quits normally. You should find the following texts in output: 
 ```
 ************ first result: 0 ***************
 ************ second result: 1 ***************
