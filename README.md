@@ -5,7 +5,7 @@ In another project I did the same but the cluster isn't ready and I get `sending
 
 After spending a day :(( I figured out that the problem just exists in akka-contrib `2.3.9` and `2.3.11`. My sample project which works as excepted is using akka-contrib `2.3.6`.
 
-##Reproducing the bug##
+##Reproducing the problem##
 
 * $ git clone git@github.com:AmirKarimi/akka-cluster-shardin-bug-2.3.9.git
 * $ activator run
