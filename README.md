@@ -1,5 +1,5 @@
 ##What is this?##
-This is a small sample cluster sharding application using Akka 2.3.6 (akka-contrib). After about 3 seconds cluster is ready and I can send message to cluster actors.
+This is a small cluster sharding sample built using Akka 2.3.6 (akka-contrib). After about 3 seconds cluster is ready and I can send message to cluster actors.
 
 In another project I did the same but the cluster isn't ready and I get `sending HandOverToMe to [None]` message (10 times). It takes about 35 seconds for the cluster to be ready. 
 
