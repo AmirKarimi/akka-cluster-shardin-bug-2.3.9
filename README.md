@@ -1,7 +1,9 @@
 ##What is this?##
-This is a small cluster sharding sample built using Akka 2.3.6 (akka-contrib). After about 3 seconds cluster is ready and I can send message to cluster actors.
+This is a small cluster sharding sample to demonstrate a problem which appeared in newer versions of the akka-contrib. 
 
-In another project I did the same but the cluster isn't ready and I get `sending HandOverToMe to [None]` message (10 times). It takes about 35 seconds for the cluster to be ready. 
+This project is built using Akka 2.3.6 (akka-contrib). After about 3 seconds the cluster is ready and messages can be sent to the cluster actors.
+
+In another project I did the same but the cluster isn't ready in expected time (takes about 35 seconds). Also I get `sending HandOverToMe to [None]` message (10 times).
 
 After spending a day :(( I figured out that the problem just exists in akka-contrib `2.3.9` and `2.3.11`. My sample project which works as excepted is using akka-contrib `2.3.6`.
 
